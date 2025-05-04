@@ -163,3 +163,24 @@ An intuitive and responsive user interface enhances the booking experience, help
 | **Primary Font**  | Circular    | Medium (500)| 16px      |
 | **Headings**      | Circular    | Bold (700)  | 24px–32px |
 | **Secondary Text**| Circular    | Book (400)  | 14px      |
+
+
+### UI Component Patterns
+
+#### 1. Navbar
+- Logo
+- Search bar
+- User navigation
+- Responsive menu
+
+#### 2. Property Card
+- Property image
+- Basic details (price, location, rating)
+- Favorite button
+- Responsive layout
+
+#### 3. Footer
+- Site links
+- Company information
+- Social media links
+- Copyright information
