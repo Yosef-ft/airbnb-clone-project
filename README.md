@@ -17,6 +17,7 @@ This project aims to:
 
 ### Backend
 - **Django** – Robust backend framework for scalable and secure web APIs.  
+- **GraphQL** – Query language for APIs providing flexible and efficient data fetching.  
 - **Redis** – In-memory data store for caching and task queueing.  
 - **Celery** – Asynchronous task queue/job queue based on distributed message passing.  
 - **Kafka / RabbitMQ** – Message brokers for reliable event-driven communication.  
@@ -47,4 +48,24 @@ This project aims to:
 | Scrum Master          | Facilitates agile processes, removes blockers, organizes meetings                   |
 
 
+
+## Backend Structure
+
+### Database Design
+
+#### Tables & Fields
+
+- **Users:** `id`, `full_name`, `address`, `phone_number`
+- **Properties:** `id`, `user_id`, `description`, `number_of_bedrooms`, `price_per_night`, `address`
+- **Bookings:** `id`, `property_id`, `user_id`, `check_in_date`, `check_out_date`, `price`, `discount`  
+- **Reviews:** `id`, `user_id`, `property_id`, `rating`, `comment`, `created_at`  
+- **Payments:** `id`, `booking_id`, `amount`, `payment_date`
+
+#### Database Relationships
+
+- A **user** can own multiple **properties**.
+- A **booking** belongs to one **property** and one **user**.
+- A **user** can leave one **review** per **property**.
+- A **property** can have many **reviews**.
+- A **payment** is associated with one **booking**, and a **user** can make multiple payments.
 
