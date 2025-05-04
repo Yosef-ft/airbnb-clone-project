@@ -69,3 +69,22 @@ This project aims to:
 - A **property** can have many **reviews**.
 - A **payment** is associated with one **booking**, and a **user** can make multiple payments.
 
+
+
+
+### Feature Breakdown
+1. **User Management**  
+   - Manage guest ratings  
+   - Manage host profiles  
+
+2. **Property Management**  
+   - Manage available properties  
+   - Define and enforce property rules  
+
+3. **Booking System**  
+   - Handle booking creation and cancellation  
+   - Manage guest check-ins and check-outs  
+
+4. **User Feedback**  
+   - Manage complaints  
+   - Handle property reviews and ratings  
