@@ -88,3 +88,14 @@ This project aims to:
 4. **User Feedback**  
    - Manage complaints  
    - Handle property reviews and ratings  
+
+
+### API Security
+- **Authentication** – Verifying the identity of users before granting access  
+- **Authorization** – Controlling access to resources based on user roles and permissions  
+- **Rate Limiting** – Throttling requests to prevent abuse, DDoS, or brute force attacks  
+
+#### Why security is crucial
+- Protects sensitive **user data** from unauthorized access  
+- Secures **payment information** and transaction integrity  
+- Maintains **system integrity** by preventing malicious API misuse 
