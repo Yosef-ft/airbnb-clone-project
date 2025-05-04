@@ -11,11 +11,11 @@ This project aims to:
 - Apply secure API development practices to protect user data and ensure safe transactions.  
 - Implement responsive UI/UX designs for a seamless user experience across devices.  
 
-## Tech Stack Used
+## Technology Stack 
 
 > The project integrates a modern, scalable, and secure technology stack designed for full-stack development and microservice-oriented architecture.
 
-### 🔧 Backend
+### Backend
 - **Django** – Robust backend framework for scalable and secure web APIs.  
 - **Redis** – In-memory data store for caching and task queueing.  
 - **Celery** – Asynchronous task queue/job queue based on distributed message passing.  
@@ -25,9 +25,26 @@ This project aims to:
 - **PostgreSQL** – Relational database with strong consistency and performance.  
 - **Prometheus + Grafana** – Monitoring and visualization stack for system performance.
 
-### 🖥️ Frontend
+### Frontend
 - **React** – Component-based UI library for building dynamic user interfaces.  
 - **Tailwind CSS** – Utility-first CSS framework for fast and responsive styling.  
 - **TypeScript** – Strongly typed JavaScript to enhance code quality and maintainability.  
 - **Shadcn** – UI component library for elegant and accessible design.
+
+
+
+## Project/team Roles and Responsibilities
+
+| **Role**              | **Responsibilities**                                                                 |
+|-----------------------|--------------------------------------------------------------------------------------|
+| Project Manager       | Oversees timeline, coordinates team, manages deliverables                           |
+| Frontend Developers   | Implements UI components, ensures responsive design                                 |
+| Backend Developers    | Builds APIs, manages database, implements business logic                            |
+| Designers             | Creates mockups, maintains design system, ensures UX quality                        |
+| QA/Testers            | Writes test cases, performs testing, reports bugs                                   |
+| DevOps Engineers      | Manages deployment, CI/CD pipeline, server infrastructure                           |
+| Product Owner         | Defines requirements, prioritizes features, represents stakeholders                 |
+| Scrum Master          | Facilitates agile processes, removes blockers, organizes meetings                   |
+
+
 
