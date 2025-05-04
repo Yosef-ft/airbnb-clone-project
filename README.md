@@ -99,3 +99,13 @@ This project aims to:
 - Protects sensitive **user data** from unauthorized access  
 - Secures **payment information** and transaction integrity  
 - Maintains **system integrity** by preventing malicious API misuse 
+
+
+### CI/CD Pipeline
+- A well-configured CI/CD pipeline enables **continuous integration and continuous delivery**, allowing teams to automatically build, test, and deploy new features with confidence and speed. This streamlines the development workflow, reduces manual errors, and ensures faster delivery of updates to production.
+
+#### Tools Commonly Used
+
+- **GitHub Actions** – Automates workflows for building, testing, and deploying code  
+- **Docker** – Ensures consistent containerized environments across all stages  
+- **Kubernetes** – Manages container orchestration for scalable deployments  
