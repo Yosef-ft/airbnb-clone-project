@@ -112,3 +112,31 @@ This project aims to:
 - **GitHub Actions** – Automates workflows for building, testing, and deploying code  
 - **Docker** – Ensures consistent containerized environments across all stages  
 - **Kubernetes** – Manages container orchestration for scalable deployments  
+
+
+
+## Frontend Structure
+
+### UI/UX Design Planning
+#### Design Goals
+- Create intuitive booking flow
+- Maintain visual consistency
+- Ensure fast loading times
+- Prioritize mobile responsiveness
+
+#### Key Features
+- Property search and filtering
+- Detailed property viewing
+- Secure checkout process
+- User authentication
+
+#### Primary Pages
+| Page                   | Description                                                         |
+|------------------------|---------------------------------------------------------------------|
+| Property Listing View  | Displays available properties in a grid format with filtering options |
+| Listing Detail View    | Shows complete details of a selected property including images and booking form |
+| Simple Checkout View   | Provides a clean interface for making payments and confirming bookings |
+
+
+#### Importance of User-Friendly Design
+An intuitive and responsive user interface enhances the booking experience, helping users navigate seamlessly from discovery to checkout. 
